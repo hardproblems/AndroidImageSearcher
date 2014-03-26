@@ -1,7 +1,7 @@
 AndroidImageSearcher
 ====================
 
-Completed User Stories:
+**Completed User Stories:**
 
     User can enter a search query that will display a grid of image results from the Google Image API.
     User can click on "settings" which allows selection of advanced search options to filter results
@@ -15,4 +15,6 @@ Completed User Stories:
     User can scroll down “infinitely” to continue loading more image results (up to 8 pages)
     Optional: Use the ActionBar SearchView as the query box instead of an EditText
  
- Screenshot
+ **Screenshot:**
+
+ ![Grid Image Searcher Screenshot](GImageSearch.png)

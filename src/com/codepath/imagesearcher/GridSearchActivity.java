@@ -42,7 +42,6 @@ public class GridSearchActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_grid_search);
 		setupViews();
-		handleIntent(getIntent());
 	}
 	
 	private void setupViews() {
@@ -68,19 +67,13 @@ public class GridSearchActivity extends ActionBarActivity {
 		});
 	}
 	
-	private void handleIntent(Intent intent) {
-		if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
-	      String query = intent.getStringExtra(SearchManager.QUERY);
-	      doSearch(query);
-	    }
-	}
-	
 	private void doSearch(String query) {
 		imageAdapter.clear();
 		doSearch(query, 0);
 	}
 	
 	private void doSearch(String query, int start) {
+		lastQuery = query;
 		String uri = buildFullQueryUri(query, start);
 		client.get(uri, new JsonHttpResponseHandler() {
 			@Override
