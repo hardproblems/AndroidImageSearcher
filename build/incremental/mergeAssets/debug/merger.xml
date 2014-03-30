@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="WorkspaceAppcompat_v7Unspecified.aar" >
+        <source path="/Users/rong.hu/Documents/workspace/ImageSearcher/build/exploded-bundles/WorkspaceAppcompat_v7Unspecified.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/rong.hu/Documents/workspace/ImageSearcher/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/rong.hu/Documents/workspace/ImageSearcher/build-types/debug/assets" />
+    </dataSet>
+
+</merger>

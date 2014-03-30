@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codepath.imagesearcher.ImageDisplayActivity" >
+
+</menu>
+<!-- From: file:/Users/rong.hu/Documents/workspace/ImageSearcher/res/menu/image_display.xml -->
