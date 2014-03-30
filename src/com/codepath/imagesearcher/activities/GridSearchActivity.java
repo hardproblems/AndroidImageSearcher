@@ -1,4 +1,4 @@
-package com.codepath.imagesearcher;
+package com.codepath.imagesearcher.activities;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -21,6 +21,11 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
+import com.codepath.imagesearcher.EndlessScrollListener;
+import com.codepath.imagesearcher.R;
+import com.codepath.imagesearcher.adapters.ImageResultArrayAdapter;
+import com.codepath.imagesearcher.models.ImageResult;
+import com.codepath.imagesearcher.models.Settings;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 

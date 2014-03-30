@@ -1,4 +1,4 @@
-package com.codepath.imagesearcher;
+package com.codepath.imagesearcher.adapters;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
+import com.codepath.imagesearcher.R;
+import com.codepath.imagesearcher.models.ImageResult;
 import com.squareup.picasso.Picasso;
 
 public class ImageResultArrayAdapter extends ArrayAdapter<ImageResult> {

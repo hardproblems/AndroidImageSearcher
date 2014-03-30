@@ -1,4 +1,4 @@
-package com.codepath.imagesearcher;
+package com.codepath.imagesearcher.models;
 
 import java.util.ArrayList;
 

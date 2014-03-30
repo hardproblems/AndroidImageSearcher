@@ -1,4 +1,4 @@
-package com.codepath.imagesearcher;
+package com.codepath.imagesearcher.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.View.OnLongClickListener;
 import android.widget.ImageView;
 
+import com.codepath.imagesearcher.R;
 import com.squareup.picasso.Picasso;
 
 public class ImageDisplayActivity extends Activity {

@@ -1,4 +1,4 @@
-package com.codepath.imagesearcher;
+package com.codepath.imagesearcher.models;
 
 import java.io.Serializable;
 
@@ -9,10 +9,10 @@ import android.net.Uri;
 public class Settings implements Serializable {
 	private static final long serialVersionUID = -8902094699381429100L;
 	
-	String imgsz;
-	String imgcolor;
-	String imgtype;
-	String as_sitesearch;
+	public String imgsz;
+	public String imgcolor;
+	public String imgtype;
+	public String as_sitesearch;
 	
 	public String toQueryString() {
 		StringBuilder sb = new StringBuilder();

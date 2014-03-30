@@ -43,6 +43,7 @@ local.properties
 .settings/
 .loadpath
 
+build/*
 # External tool builders
 # .externalToolBuilders/
 #
